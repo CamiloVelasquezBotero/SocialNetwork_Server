@@ -1,5 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import colors from 'colors'
 import { Server } from 'socket.io';
 import type { ConnectedUsers, FriendRequestAcceptedType, RegisterUserType } from './types/index.js';
 dotenv.config() // Habilitamos variables de entorno
@@ -9,11 +10,11 @@ const app = express() // inicializamos express
 const PORT = process.env.PORT || 4000
 
 const appExpress = app.listen(PORT, () => {
-    console.log(`Servidor corriendo en el puerto: ${PORT}`)
+    console.log(colors.green.bold(`Servidor corriendo en el puerto: ${PORT}`))
 })
 
 // -------------------------------WebSockets Socket.io ---------------------------
-const io = new Server(appExpress, { cors: { origin: "http://localhost:3000" } })
+const io = new Server(appExpress, { cors: {origin: process.env.FRONTEND_URL} })
 const connectedUsers: ConnectedUsers = {}
 
 io.on('connection', socket => {
