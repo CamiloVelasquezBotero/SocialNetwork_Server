@@ -9,16 +9,11 @@ The WebSocket backend for a real-time chat and social network application. Built
 
 ## Live Demo
 
-The full application is deployed and running:
+Experience the application live in production:
 
 **[https://social-network-client-nine.vercel.app](https://social-network-client-nine.vercel.app)**
 
-| Service | URL | Platform |
-| :--- | :--- | :--- |
-| Frontend | [social-network-client-nine.vercel.app](https://social-network-client-nine.vercel.app) | Vercel |
-| Backend (this server) | [socialnetwork-server-zwk7.onrender.com](https://socialnetwork-server-zwk7.onrender.com) | Render |
-
-You can log in with the test account (`test@correo.com` / `password`) or create your own account to explore the real-time features live.
+You can test real-time chat and presence features across two browser windows using the demo accounts (`test@correo.com` & `test2@correo.com`, password: `password`) or by creating new accounts directly from the app.
 
 ---
 
