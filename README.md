@@ -138,3 +138,5 @@ The server will be available at [http://localhost:4000](http://localhost:4000).
 ## Author
 
 **Camilo Velasquez Botero**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/camilodeveloper/)
