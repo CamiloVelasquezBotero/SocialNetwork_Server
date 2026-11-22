@@ -7,6 +7,21 @@ The WebSocket backend for a real-time chat and social network application. Built
 
 ---
 
+## Live Demo
+
+The full application is deployed and running:
+
+**[https://social-network-client-nine.vercel.app](https://social-network-client-nine.vercel.app)**
+
+| Service | URL | Platform |
+| :--- | :--- | :--- |
+| Frontend | [social-network-client-nine.vercel.app](https://social-network-client-nine.vercel.app) | Vercel |
+| Backend (this server) | [socialnetwork-server-zwk7.onrender.com](https://socialnetwork-server-zwk7.onrender.com) | Render |
+
+You can log in with the test account (`test@correo.com` / `password`) or create your own account to explore the real-time features live.
+
+---
+
 ## Responsibilities
 
 This server does not interact with the database directly. Its sole responsibility is real-time event routing:
